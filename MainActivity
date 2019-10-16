@@ -36,18 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    //  ===================
-
-    String apiUrl = "http://mobileappdatabase.in/demo/smartnews/app_dashboard/jsonUrl/single-article.php?article-id=71";
-    String title, image, category;
-    TextView titleTextView, categoryTextView;
-    ProgressDialog progressDialog;
-    Button displayData;
-    ImageView imageView_2;
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -60,8 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AsyncTaskExample asyncTask=new AsyncTaskExample();
-                //asyncTask.execute("https://www.tutorialspoint.com/images/tp-logo-diamond.png");
-                asyncTask.execute("http://apps.datasek.com/skyswash/test2.png.png");
+                   asyncTask.execute("http://apps.datasek.com/skyswash/test2.png.png");
             }
 
        });
