@@ -24,5 +24,6 @@ Note
 Please replace the link i used with your image url 
 Android studio main flash constarints errors ,is so , please adjust the activity_main using the  design editor to handle possible constraints
 textViews and ImageViews , may flag errors in naming e.g use @string , in this case i will suggest use the translations editor to crete the strings and append accordingly 
+The tutorials consulted  were https://www.tutorialspoint.com/android-asynctask-example-and-explanation  and https://abhiandroid.com/programming/asynctask
 If any other challenges please contact me at seunamodeni@yahoo.com
 Good Luck !
